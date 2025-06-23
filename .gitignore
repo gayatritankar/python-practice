@@ -1,0 +1,23 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore PyCharm-specific files
+.idea/
+
+# Ignore logs and system files
+*.log
+Thumbs.db
+.DS_Store
+
+# Ignore test output folders
+test-results/
+playwright-report/
+
+# Ignore environment files
+.env
