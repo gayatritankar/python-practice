@@ -20,6 +20,8 @@ def test_signup_demo():
 
         page.click("input[type='submit']")
 
+        print("Current_URL", page.url)
+
         browser.close()
 
 
